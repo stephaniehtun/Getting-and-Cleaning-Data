@@ -20,8 +20,16 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ## Tidy Data Set
-### Subjects: 30 subjects
-### Activity: 6 activities: Laying, Sitting, Standing, Walking, Walking DownStairs, Walking UpStairs
+### Subjects: 
+    30 subjects
+### Activity: 
+    6 activities: 
+     1. Laying
+     2. Sitting
+     3. Standing
+     4. Walking, 
+     5. Walking DownStairs
+     6. Walking UpStairs
 ### Measurements: 
  TimeBodyAcc.Mean...X                             
  TimeBodyAcc.Mean...Y                             
