@@ -21,22 +21,22 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.The tidy data set was output to tidy.csv file.
 
-            new_Data2 <- aggregate(.~Subject + Activity, new_Data, mean)
-            new_Data2 <- new_Data2[order(new_Data2$Subject,new_Data2$Activity),]
-            write.csv(new_Data2,"tidy.csv",row.names = FALSE)
+    new_Data2 <- aggregate(.~Subject + Activity, new_Data, mean)
+    new_Data2 <- new_Data2[order(new_Data2$Subject,new_Data2$Activity),]
+    write.csv(new_Data2,"tidy.csv",row.names = FALSE)
 
-            > head(new_Data2,10)
-        Subject           Activity TimeBodyAcceleration.Mean...X TimeBodyAcceleration.Mean...Y
-              1             LAYING                     0.2215982                  -0.040513953
-              1            SITTING                     0.2612376                  -0.001308288
-              1           STANDING                     0.2789176                  -0.016137590
-              1            WALKING                     0.2773308                  -0.017383819
-              1 WALKING_DOWNSTAIRS                     0.2891883                  -0.009918505
-              1   WALKING_UPSTAIRS                     0.2554617                  -0.023953149
-              2             LAYING                     0.2813734                  -0.018158740
-              2            SITTING                     0.2770874                  -0.015687994
-              2           STANDING                     0.2779115                  -0.018420827
-              2            WALKING                     0.2764266                  -0.018594920
+        > head(new_Data2,10)
+    Subject           Activity TimeBodyAcceleration.Mean...X TimeBodyAcceleration.Mean...Y
+          1             LAYING                     0.2215982                  -0.040513953
+          1            SITTING                     0.2612376                  -0.001308288
+          1           STANDING                     0.2789176                  -0.016137590
+          1            WALKING                     0.2773308                  -0.017383819
+          1 WALKING_DOWNSTAIRS                     0.2891883                  -0.009918505
+          1   WALKING_UPSTAIRS                     0.2554617                  -0.023953149
+          2             LAYING                     0.2813734                  -0.018158740
+          2            SITTING                     0.2770874                  -0.015687994
+          2           STANDING                     0.2779115                  -0.018420827
+          2            WALKING                     0.2764266                  -0.018594920
 
 
 
