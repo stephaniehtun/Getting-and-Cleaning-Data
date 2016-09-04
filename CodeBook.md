@@ -16,8 +16,29 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ### run_analysis.R implements the following five steps
 
 #### 1. Merges the training and the test sets to create one data set.
+#load data
+        subject_Train = read.table('./train/subject_train.txt',header=FALSE)
+        x_Train = read.table('./train/x_train.txt',header=FALSE)
+        y_Train = read.table('./train/y_train.txt',header=FALSE)
+        
+        subject_Test = read.table('./test/subject_test.txt',header=FALSE)
+        x_Test = read.table('./test/x_test.txt',header=FALSE)
+        y_Test = read.table('./test/y_test.txt',header=FALSE)
+        
+        # combine raw data sets
+        x_Data <- rbind(x_Train, x_Test)
+        y_Data <- rbind(y_Train, y_Test)
+        subject_Data <- rbind(subject_Train, subject_Test)
+
 #### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+        # determine which columb contain mean or std and extract 
+        x_Data_mean_std <- x_Data[, grep("-(mean|std)\\(\\)", read.table("features.txt")[, 2])]
+        names(x_Data_mean_std) <- read.table("features.txt")[grep("-(mean|std)\\(\\)", read.table("features.txt")[, 2]), 2] 
+
 #### 3. Uses descriptive activity names to name the activities in the data set
+        y_Data[, 1] <- read.table("activity_labels.txt")[y_Data[, 1], 2]
+        names(y_Data) <- "Activity"
+
 #### 4. Appropriately labels the data set with descriptive variable names.
 
         names(subject_Data) <- "Subject"
