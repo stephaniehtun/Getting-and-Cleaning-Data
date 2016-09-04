@@ -82,6 +82,41 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
         names(new_Data) <- gsub('Gyro',"AngularSpeed",names(new_Data))
         names(new_Data) <- gsub('Mag',"Magnitude",names(new_Data))
 
+            > names(new_Data)
+             [1] "TimeBodyAcceleration.Mean...X"                                      "TimeBodyAcceleration.Mean...Y"                             
+             [3] "TimeBodyAcceleration.Mean...Z"                                      "TimeBodyAcceleration.Standard Deviation...X"                       
+             [5] "TimeBodyAcceleration.Standard Deviation...Y"                        "TimeBodyAcceleration.Standard Deviation...Z"                       
+             [7] "TimeGravityAcceleration.Mean...X"                                   "TimeGravityAcceleration.Mean...Y"                                  
+             [9] "TimeGravityAcceleration.Mean...Z"                                   "TimeGravityAcceleration.Standard Deviation...X"                    
+            [11] "TimeGravityAcceleration.Standard Deviation...Y"                     "TimeGravityAcceleration.Standard Deviation...Z"                    
+            [13] "TimeBodyAccelerationJerk.Mean...X"                                  "TimeBodyAccelerationJerk.Mean...Y"                                 
+            [15] "TimeBodyAccelerationJerk.Mean...Z"                                  "TimeBodyAccelerationJerk.Standard Deviation...X"                   
+            [17] "TimeBodyAccelerationJerk.Standard Deviation...Y"                    "TimeBodyAccelerationJerk.Standard Deviation...Z"                   
+            [19] "TimeBodyAngularSpeed.Mean...X"                                      "TimeBodyAngularSpeed.Mean...Y"                                     
+            [21] "TimeBodyAngularSpeed.Mean...Z"                                      "TimeBodyAngularSpeed.Standard Deviation...X"                       
+            [23] "TimeBodyAngularSpeed.Standard Deviation...Y"                        "TimeBodyAngularSpeed.Standard Deviation...Z"                       
+            [25] "TimeBodyAngularAcceleration.Mean...X"                               "TimeBodyAngularAcceleration.Mean...Y"                              
+            [27] "TimeBodyAngularAcceleration.Mean...Z"                               "TimeBodyAngularAcceleration.Standard Deviation...X"                
+            [29] "TimeBodyAngularAcceleration.Standard Deviation...Y"                 "TimeBodyAngularAcceleration.Standard Deviation...Z"                
+            [31] "TimeBodyAccelerationMagnitude.Mean.."                               "TimeBodyAccelerationMagnitude.Standard Deviation.."                
+            [33] "TimeGravityAccelerationMagnitude.Mean.."                            "TimeGravityAccelerationMagnitude.Standard Deviation.."             
+            [35] "TimeBodyAccelerationJerkMagnitude.Mean.."                           "TimeBodyAccelerationJerkMagnitude.Standard Deviation.."            
+            [37] "TimeBodyAngularSpeedMagnitude.Mean.."                               "TimeBodyAngularSpeedMagnitude.Standard Deviation.."                
+            [39] "TimeBodyAngularAccelerationMagnitude.Mean.."                        "TimeBodyAngularAccelerationMagnitude.Standard Deviation.."         
+            [41] "FrequencyBodyAcceleration.Mean...X"                                 "FrequencyBodyAcceleration.Mean...Y"                                
+            [43] "FrequencyBodyAcceleration.Mean...Z"                                 "FrequencyBodyAcceleration.Standard Deviation...X"                  
+            [45] "FrequencyBodyAcceleration.Standard Deviation...Y"                   "FrequencyBodyAcceleration.Standard Deviation...Z"                  
+            [47] "FrequencyBodyAccelerationJerk.Mean...X"                             "FrequencyBodyAccelerationJerk.Mean...Y"                            
+            [49] "FrequencyBodyAccelerationJerk.Mean...Z"                             "FrequencyBodyAccelerationJerk.Standard Deviation...X"              
+            [51] "FrequencyBodyAccelerationJerk.Standard Deviation...Y"               "FrequencyBodyAccelerationJerk.Standard Deviation...Z"              
+            [53] "FrequencyBodyAngularSpeed.Mean...X"                                 "FrequencyBodyAngularSpeed.Mean...Y"                                
+            [55] "FrequencyBodyAngularSpeed.Mean...Z"                                 "FrequencyBodyAngularSpeed.Standard Deviation...X"                  
+            [57] "FrequencyBodyAngularSpeed.Standard Deviation...Y"                   "FrequencyBodyAngularSpeed.Standard Deviation...Z"                  
+            [59] "FrequencyBodyAccelerationMagnitude.Mean.."                          "FrequencyBodyAccelerationMagnitude.Standard Deviation.."           
+            [61] "FrequencyBodyBodyAccelerationJerkMagnitude.Mean.."                  "FrequencyBodyBodyAccelerationJerkMagnitude.Standard Deviation.."   
+            [63] "FrequencyBodyBodyAngularSpeedMagnitude.Mean.."                      "FrequencyBodyBodyAngularSpeedMagnitude.Standard Deviation.."       
+            [65] "FrequencyBodyBodyAngularAccelerationMagnitude.Mean.."               "FrequencyBodyBodyAngularAccelerationMagnitude.Standard Deviation.."
+            [67] "Activity"                                                           "Subject"                                                           
 
 #### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.The tidy data set was output to tidy.csv file.
 
