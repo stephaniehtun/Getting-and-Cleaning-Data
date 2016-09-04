@@ -32,70 +32,70 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
      5. Walking DownStairs
      6. Walking UpStairs
 ### Mean and Standard Deviation Measurements:
- TimeBodyAcceleration.Mean...X                                     
- TimeBodyAcceleration.Mean...Y                                    
- TimeBodyAcceleration.Mean...Z                                     
- TimeBodyAcceleration.Standard Deviation...X                       
- TimeBodyAcceleration.Standard Deviation...Y                       
- TimeBodyAcceleration.Standard Deviation...Z                       
- TimeGravityAcceleration.Mean...X                                  
- TimeGravityAcceleration.Mean...Y                                  
- TimeGravityAcceleration.Mean...Z                                  
- TimeGravityAcceleration.Standard Deviation...X                    
- TimeGravityAcceleration.Standard Deviation...Y                    
- TimeGravityAcceleration.Standard Deviation...Z                    
- TimeBodyAccelerationJerk.Mean...X                                 
- TimeBodyAccelerationJerk.Mean...Y                                 
- TimeBodyAccelerationJerk.Mean...Z                                 
- TimeBodyAccelerationJerk.Standard Deviation...X                   
- TimeBodyAccelerationJerk.Standard Deviation...Y                   
- TimeBodyAccelerationJerk.Standard Deviation...Z                   
- TimeBodyAngularSpeed.Mean...X                                     
- TimeBodyAngularSpeed.Mean...Y                                     
- TimeBodyAngularSpeed.Mean...Z                                     
- TimeBodyAngularSpeed.Standard Deviation...X                       
- TimeBodyAngularSpeed.Standard Deviation...Y                       
- TimeBodyAngularSpeed.Standard Deviation...Z                       
- TimeBodyAngularAcceleration.Mean...X                              
- TimeBodyAngularAcceleration.Mean...Y                             
- TimeBodyAngularAcceleration.Mean...Z                              
- TimeBodyAngularAcceleration.Standard Deviation...X                
- TimeBodyAngularAcceleration.Standard Deviation...Y                
- TimeBodyAngularAcceleration.Standard Deviation...Z                
- TimeBodyAccelerationMagnitude.Mean..                              
- TimeBodyAccelerationMagnitude.Standard Deviation..                
- TimeGravityAccelerationMagnitude.Mean..                           
- TimeGravityAccelerationMagnitude.Standard Deviation..             
- TimeBodyAccelerationJerkMagnitude.Mean..                          
- TimeBodyAccelerationJerkMagnitude.Standard Deviation..            
- TimeBodyAngularSpeedMagnitude.Mean..                              
- TimeBodyAngularSpeedMagnitude.Standard Deviation..                
- TimeBodyAngularAccelerationMagnitude.Mean..                       
- TimeBodyAngularAccelerationMagnitude.Standard Deviation..         
- FrequencyBodyAcceleration.Mean...X                                
- FrequencyBodyAcceleration.Mean...Y                                
- FrequencyBodyAcceleration.Mean...Z                                
- FrequencyBodyAcceleration.Standard Deviation...X                  
- FrequencyBodyAcceleration.Standard Deviation...Y                  
- FrequencyBodyAcceleration.Standard Deviation...Z                  
- FrequencyBodyAccelerationJerk.Mean...X                             
- FrequencyBodyAccelerationJerk.Mean...Y                             
- FrequencyBodyAccelerationJerk.Mean...Z                            
- FrequencyBodyAccelerationJerk.Standard Deviation...X              
- FrequencyBodyAccelerationJerk.Standard Deviation...Y              
- FrequencyBodyAccelerationJerk.Standard Deviation...Z              
- FrequencyBodyAngularSpeed.Mean...X                                
- FrequencyBodyAngularSpeed.Mean...Y                                
- FrequencyBodyAngularSpeed.Mean...Z                                
- FrequencyBodyAngularSpeed.Standard Deviation...X                  
- FrequencyBodyAngularSpeed.Standard Deviation...Y                  
- FrequencyBodyAngularSpeed.Standard Deviation...Z                  
- FrequencyBodyAccelerationMagnitude.Mean..                         
- FrequencyBodyAccelerationMagnitude.Standard Deviation..           
- FrequencyBodyBodyAccelerationJerkMagnitude.Mean..                 
- FrequencyBodyBodyAccelerationJerkMagnitude.Standard Deviation..   
- FrequencyBodyBodyAngularSpeedMagnitude.Mean..                     
- FrequencyBodyBodyAngularSpeedMagnitude.Standard Deviation..       
- FrequencyBodyBodyAngularAccelerationMagnitude.Mean..              
- FrequencyBodyBodyAngularAccelerationMagnitude.Standard Deviation..
- 
+     TimeBodyAcceleration.Mean...X                                     
+     TimeBodyAcceleration.Mean...Y                                    
+     TimeBodyAcceleration.Mean...Z                                     
+     TimeBodyAcceleration.Standard Deviation...X                       
+     TimeBodyAcceleration.Standard Deviation...Y                       
+     TimeBodyAcceleration.Standard Deviation...Z                       
+     TimeGravityAcceleration.Mean...X                                  
+     TimeGravityAcceleration.Mean...Y                                  
+     TimeGravityAcceleration.Mean...Z                                  
+     TimeGravityAcceleration.Standard Deviation...X                    
+     TimeGravityAcceleration.Standard Deviation...Y                    
+     TimeGravityAcceleration.Standard Deviation...Z                    
+     TimeBodyAccelerationJerk.Mean...X                                 
+     TimeBodyAccelerationJerk.Mean...Y                                 
+     TimeBodyAccelerationJerk.Mean...Z                                 
+     TimeBodyAccelerationJerk.Standard Deviation...X                   
+     TimeBodyAccelerationJerk.Standard Deviation...Y                   
+     TimeBodyAccelerationJerk.Standard Deviation...Z                   
+     TimeBodyAngularSpeed.Mean...X                                     
+     TimeBodyAngularSpeed.Mean...Y                                     
+     TimeBodyAngularSpeed.Mean...Z                                     
+     TimeBodyAngularSpeed.Standard Deviation...X                       
+     TimeBodyAngularSpeed.Standard Deviation...Y                       
+     TimeBodyAngularSpeed.Standard Deviation...Z                       
+     TimeBodyAngularAcceleration.Mean...X                              
+     TimeBodyAngularAcceleration.Mean...Y                             
+     TimeBodyAngularAcceleration.Mean...Z                              
+     TimeBodyAngularAcceleration.Standard Deviation...X                
+     TimeBodyAngularAcceleration.Standard Deviation...Y                
+     TimeBodyAngularAcceleration.Standard Deviation...Z                
+     TimeBodyAccelerationMagnitude.Mean..                              
+     TimeBodyAccelerationMagnitude.Standard Deviation..                
+     TimeGravityAccelerationMagnitude.Mean..                           
+     TimeGravityAccelerationMagnitude.Standard Deviation..             
+     TimeBodyAccelerationJerkMagnitude.Mean..                          
+     TimeBodyAccelerationJerkMagnitude.Standard Deviation..            
+     TimeBodyAngularSpeedMagnitude.Mean..                              
+     TimeBodyAngularSpeedMagnitude.Standard Deviation..                
+     TimeBodyAngularAccelerationMagnitude.Mean..                       
+     TimeBodyAngularAccelerationMagnitude.Standard Deviation..         
+     FrequencyBodyAcceleration.Mean...X                                
+     FrequencyBodyAcceleration.Mean...Y                                
+     FrequencyBodyAcceleration.Mean...Z                                
+     FrequencyBodyAcceleration.Standard Deviation...X                  
+     FrequencyBodyAcceleration.Standard Deviation...Y                  
+     FrequencyBodyAcceleration.Standard Deviation...Z                  
+     FrequencyBodyAccelerationJerk.Mean...X                             
+     FrequencyBodyAccelerationJerk.Mean...Y                             
+     FrequencyBodyAccelerationJerk.Mean...Z                            
+     FrequencyBodyAccelerationJerk.Standard Deviation...X              
+     FrequencyBodyAccelerationJerk.Standard Deviation...Y              
+     FrequencyBodyAccelerationJerk.Standard Deviation...Z              
+     FrequencyBodyAngularSpeed.Mean...X                                
+     FrequencyBodyAngularSpeed.Mean...Y                                
+     FrequencyBodyAngularSpeed.Mean...Z                                
+     FrequencyBodyAngularSpeed.Standard Deviation...X                  
+     FrequencyBodyAngularSpeed.Standard Deviation...Y                  
+     FrequencyBodyAngularSpeed.Standard Deviation...Z                  
+     FrequencyBodyAccelerationMagnitude.Mean..                         
+     FrequencyBodyAccelerationMagnitude.Standard Deviation..           
+     FrequencyBodyBodyAccelerationJerkMagnitude.Mean..                 
+     FrequencyBodyBodyAccelerationJerkMagnitude.Standard Deviation..   
+     FrequencyBodyBodyAngularSpeedMagnitude.Mean..                     
+     FrequencyBodyBodyAngularSpeedMagnitude.Standard Deviation..       
+     FrequencyBodyBodyAngularAccelerationMagnitude.Mean..              
+     FrequencyBodyBodyAngularAccelerationMagnitude.Standard Deviation..
+     
