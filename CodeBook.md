@@ -33,6 +33,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
      6. Walking UpStairs
 ### Mean and Standard Deviation Measurements:
 All measuremnent values are floating point numbers
+
      TimeBodyAcceleration.Mean...X                                     
      TimeBodyAcceleration.Mean...Y                                    
      TimeBodyAcceleration.Mean...Z                                     
