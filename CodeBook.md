@@ -22,9 +22,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Tidy Data Set Summary
 ### Subjects: 
-    30 subjects
+    30 integer subjects
 ### Activity: 
-    6 activities: 
+    6 activity names in string: 
      1. Laying
      2. Sitting
      3. Standing
@@ -32,6 +32,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
      5. Walking DownStairs
      6. Walking UpStairs
 ### Mean and Standard Deviation Measurements:
+All measuremnent values are floating point numbers
      TimeBodyAcceleration.Mean...X                                     
      TimeBodyAcceleration.Mean...Y                                    
      TimeBodyAcceleration.Mean...Z                                     
