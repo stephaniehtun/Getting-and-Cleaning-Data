@@ -21,6 +21,10 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 4. Appropriately labels the data set with descriptive variable names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.The tidy data set was output to tidy.csv file.
 
+new_Data2 <- aggregate(.~Subject + Activity, new_Data, mean)
+new_Data2 <- new_Data2[order(new_Data2$Subject,new_Data2$Activity),]
+write.csv(new_Data2,"tidy.csv",row.names = FALSE)
+
             > head(new_Data2,10)
         Subject           Activity TimeBodyAcceleration.Mean...X TimeBodyAcceleration.Mean...Y
               1             LAYING                     0.2215982                  -0.040513953
