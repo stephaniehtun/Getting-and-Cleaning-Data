@@ -7,7 +7,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 1. Download and unzip the raw data files
 2. Set workiing directory
 3. Run the R script file "run_analysis.R"
-4. Export the tidy data set in csv "tidy.csv"
+4. Export the tidy data set in txt "tidy.txt"
 
 ## Required packages for run_analysis.R
     plyr 
