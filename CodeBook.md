@@ -13,7 +13,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Raw Data Processing Steps:
 
-### Run_analysis.R implements the following five steps
+### Run_analysis.R implements the following five steps:
 #### 1. Merges the training and the test sets to create one data set.
         #load data
         subject_Train = read.table('./train/subject_train.txt',header=FALSE)
