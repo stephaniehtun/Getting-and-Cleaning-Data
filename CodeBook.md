@@ -15,11 +15,31 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ### run_analysis.R implements the following five steps
 
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.The tidy data set was output to tidy.csv file.
+#### 1. Merges the training and the test sets to create one data set.
+#### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+#### 3. Uses descriptive activity names to name the activities in the data set
+#### 4. Appropriately labels the data set with descriptive variable names.
+
+        names(subject_Data) <- "Subject"
+        
+        # combibe data set into a single one
+        new_Data <- cbind(x_Data_mean_std,y_Data,subject_Data)
+        
+        # make variables names descriptive
+        names(new_Data) <- make.names(names(new_Data))
+        names(new_Data) <- gsub('^t',"Time",names(new_Data))
+        names(new_Data) <- gsub('^f',"Frequency",names(new_Data))
+        names(new_Data) <- gsub('Freq\\.',"Frequency.",names(new_Data))
+        names(new_Data) <- gsub('Freq$',"Frequency",names(new_Data))
+        names(new_Data) <- gsub('\\.mean',".Mean",names(new_Data))
+        names(new_Data) <- gsub('\\.std',".Standard Deviation",names(new_Data))
+        names(new_Data) <- gsub('Acc',"Acceleration",names(new_Data))
+        names(new_Data) <- gsub('GyroJerk',"AngularAcceleration",names(new_Data))
+        names(new_Data) <- gsub('Gyro',"AngularSpeed",names(new_Data))
+        names(new_Data) <- gsub('Mag',"Magnitude",names(new_Data))
+
+
+#### 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.The tidy data set was output to tidy.csv file.
 
         new_Data2 <- aggregate(.~Subject + Activity, new_Data, mean)
         new_Data2 <- new_Data2[order(new_Data2$Subject,new_Data2$Activity),]
