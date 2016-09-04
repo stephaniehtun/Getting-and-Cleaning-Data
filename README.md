@@ -14,4 +14,4 @@ The purpose of this project is to demonstrate your ability to collect, work with
     data.table
 
 
-### More about data cleaning can be found [CodeBook.md](../Getting-and-Cleaning-Data / CodeBook.md )
+### More about data cleaning can be found [CodeBook.md](https://github.com/stephaniehtun/Getting-and-Cleaning-Data/blob/master/CodeBook.md)
