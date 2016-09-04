@@ -16,7 +16,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ### run_analysis.R implements the following five steps
 
 #### 1. Merges the training and the test sets to create one data set.
-#load data
+        #load data
         subject_Train = read.table('./train/subject_train.txt',header=FALSE)
         x_Train = read.table('./train/x_train.txt',header=FALSE)
         y_Train = read.table('./train/y_train.txt',header=FALSE)
@@ -29,6 +29,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
         x_Data <- rbind(x_Train, x_Test)
         y_Data <- rbind(y_Train, y_Test)
         subject_Data <- rbind(subject_Train, subject_Test)
+        
+        > names(subject_Data)
+            [1] "Subject"
 
 #### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
         # determine which columb contain mean or std and extract 
