@@ -8,6 +8,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 2. Set workiing directory
 3. Run the R script file "run_analysis.R"
 4. Export the tidy data set in csv "tidy.csv"
+
 ### More about data cleaning can be found CodeBook.md
 
 ## Required packages for run_analysis.R
