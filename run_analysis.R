@@ -57,7 +57,8 @@ names(new_Data) <- gsub('Mag',"Magnitude",names(new_Data))
 
 new_Data2 <- aggregate(.~Subject + Activity, new_Data, mean)
 new_Data2 <- new_Data2[order(new_Data2$Subject,new_Data2$Activity),]
-write.csv(new_Data2,"tidy.csv",row.names = FALSE)
+write.table(new_Data2,file = "tidy.txt",row.names = FALSE)
+
 
 
 
