@@ -23,16 +23,16 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
             > head(new_Data2,10)
         Subject           Activity TimeBodyAcceleration.Mean...X TimeBodyAcceleration.Mean...Y
-    1         1             LAYING                     0.2215982                  -0.040513953
-    31        1            SITTING                     0.2612376                  -0.001308288
-    61        1           STANDING                     0.2789176                  -0.016137590
-    91        1            WALKING                     0.2773308                  -0.017383819
-    121       1 WALKING_DOWNSTAIRS                     0.2891883                  -0.009918505
-    151       1   WALKING_UPSTAIRS                     0.2554617                  -0.023953149
-    2         2             LAYING                     0.2813734                  -0.018158740
-    32        2            SITTING                     0.2770874                  -0.015687994
-    62        2           STANDING                     0.2779115                  -0.018420827
-    92        2            WALKING                     0.2764266                  -0.018594920
+              1             LAYING                     0.2215982                  -0.040513953
+              1            SITTING                     0.2612376                  -0.001308288
+              1           STANDING                     0.2789176                  -0.016137590
+              1            WALKING                     0.2773308                  -0.017383819
+              1 WALKING_DOWNSTAIRS                     0.2891883                  -0.009918505
+              1   WALKING_UPSTAIRS                     0.2554617                  -0.023953149
+              2             LAYING                     0.2813734                  -0.018158740
+              2            SITTING                     0.2770874                  -0.015687994
+              2           STANDING                     0.2779115                  -0.018420827
+              2            WALKING                     0.2764266                  -0.018594920
 
 
 
